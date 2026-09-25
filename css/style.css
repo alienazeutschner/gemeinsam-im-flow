@@ -156,11 +156,11 @@ ul { list-style: none; margin: 0; padding: 0; }
   color: var(--ink); padding: 6px 0; border-bottom: 1px solid transparent; transition: color .25s, border-color .25s;
 }
 .main-nav a:hover, .main-nav a.active { color: var(--gold); border-bottom-color: var(--gold); }
-.header-cta {
-  flex-shrink: 0; background: transparent; color: var(--gold); border: 1.5px solid rgba(150,101,14,.45);
-  padding: 0.7rem 1.5rem; font-weight: 500; font-size: .68rem; letter-spacing: .1em; white-space: nowrap;
+.main-nav a.header-cta {
+  flex-shrink: 0; background: var(--gold); color: #FCF7F2; text-transform: uppercase; border-bottom: none;
+  padding: 0.8rem 2rem; font-weight: 500; font-size: .68rem; letter-spacing: .1em; white-space: nowrap;
 }
-.header-cta:hover { background: var(--gold); color: #FFFCF6; border-color: var(--gold); transform: translateY(-2px); box-shadow: none; }
+.main-nav a.header-cta:hover, .main-nav a.header-cta:active, .main-nav a.header-cta:focus { background: var(--gold-hover); color: #FCF7F2; border-bottom-color: transparent; transform: translateY(-2px); box-shadow: none; }
 
 .nav-toggle {
   display: none; align-items: center; gap: 9px; background: transparent;
